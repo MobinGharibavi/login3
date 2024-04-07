@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hideScroll {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.text-orange {
+    --tw-text-opacity: 1;
+    color: rgb(255 90 0 / var(--tw-text-opacity));
+}
+.bg-orange {
+    --tw-text-opacity: 1;
+    background-color: rgb(255 90 0 / var(--tw-text-opacity));
+}
